@@ -27,7 +27,7 @@ int main()
             if(arr[i] < arr[j])
             {
                 if(lis[j] < lis[i]+1)
-                    lis[j] = lis[i] + +1;
+                    lis[j] = lis[i] + 1;
             }
         }
     }
